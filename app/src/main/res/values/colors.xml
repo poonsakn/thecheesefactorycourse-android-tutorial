@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="btnStatePressed">#AE3600</color>
+    <color name="btnStateSelected">#D7845d</color>
+    <color name="btnStateFocused">#D65317</color>
+
 </resources>

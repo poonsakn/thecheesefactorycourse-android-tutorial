@@ -2,4 +2,9 @@
     <string name="app_name">HelloWorld</string>
     <string name="calculate">Calculate!</string>
     <string name="settings">Settings</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_description">Clip anything from over 100,000 hot topics</string>
+    <string name="welcom_message">Welcome to Clipzy</string>
+    <string name="accept_msg">By continuing, you accept the Term of Use and Privacy Policy</string>
+    <string name="skip">Skip</string>
 </resources>

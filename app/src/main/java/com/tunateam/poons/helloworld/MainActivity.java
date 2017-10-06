@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                     break;
             }
-            tvResult.setText("= " + sum);
+            tvResult.setText("" + sum);
 
             Log.d("Calculation", "Result = " + sum);
             Toast.makeText(MainActivity.this,
