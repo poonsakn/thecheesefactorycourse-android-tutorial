@@ -10,9 +10,9 @@
     tools:context="com.tunateam.poons.helloworld.MainActivity">
 
     <ScrollView
-        android:fillViewport="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -143,6 +143,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:indeterminate="true" />
+
+            <com.tunateam.poons.helloworld.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                />
+<com.tunateam.poons.helloworld.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                app:isBlue="true"
+                />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -150,6 +161,7 @@
                 android:background="@android:color/transparent">
 
             </View>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
