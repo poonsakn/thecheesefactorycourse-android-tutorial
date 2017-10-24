@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText editText1;
     EditText editText2;
     Button btnCalculate;
+    CustomViewGroup viewGroup1;
+    CustomViewGroup viewGroup2;
     RadioButton rbPlus;
     RadioButton rbMinus;
     RadioButton rbMultiply;
@@ -68,6 +70,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 "Width: " + width + " Height: " + height,
                 Toast.LENGTH_LONG)
                 .show();
+
+
+        viewGroup1 = (CustomViewGroup) findViewById(R.id.ViewGroup1);
+        viewGroup2 = (CustomViewGroup) findViewById(R.id.ViewGroup1);
+
+        viewGroup1.setButtonText("Hello");
+        viewGroup2.setButtonText("World");
+
     }
 
     @Override
